@@ -8,4 +8,4 @@ Images are published on DockerHub [cloudtogo4edge/udp2raw-tunnel](https://hub.do
 
 ## Tags
 
-* **alpine-3.12**: [`20200818.0-amd64`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/alpine.amd64/Dockerfile) [`20200818.0-arm64v8`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/alpine.arm64v8/Dockerfile) [`20200818.0-arm32v7`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/alpine.arm32v7/Dockerfile)
+* **alpine-3.12**: [`20200818.0-amd64`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/amd64/Dockerfile) [`20200818.0-arm64v8`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/arm64v8/Dockerfile) [`20200818.0-arm32v7`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/arm32v7/Dockerfile)
