@@ -1,11 +1,12 @@
 # Containerized udp2raw-tunnel
 
-This project provides multi-arch images of project [udp2raw-tunnel](https://github.com/wangyu-/udp2raw-tunnel).
+This project provides multi-arch images for project [udp2raw-tunnel](https://github.com/wangyu-/udp2raw-tunnel).
 
 ## Image
 
-Images are published on DockerHub [cloudtogo4edge/udp2raw-tunnel](https://hub.docker.com/r/cloudtogo4edge/udp2raw-tunnel).
+Images for linux/amd64, linux/arm64v8 and linux/arm32v7 are available on DockerHub [cloudtogo4edge/udp2raw-tunnel](https://hub.docker.com/r/cloudtogo4edge/udp2raw-tunnel).
 
 ## Tags
 
-* **alpine-3.12**: [`20200818.0-amd64`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/amd64/Dockerfile) [`20200818.0-arm64v8`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/arm64v8/Dockerfile) [`20200818.0-arm32v7`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/arm32v7/Dockerfile)
+* **alpine-3.12**: [`20200818.0-alpine3.12`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/alpine-3.12.dockerfile)
+* **alpine-3.13**: [`20200818.0` `20200818.0-alpine3.13`](https://github.com/cloudtogo/containerized-udp2raw-tunnel/blob/master/alpine-3.13.dockerfile)
