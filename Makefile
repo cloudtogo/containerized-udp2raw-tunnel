@@ -1,5 +1,5 @@
 .PHONY:all
 all:
-	docker buildx build --platform=linux/amd64 -t docker.io/cloudtogo4edge/udp2raw-tunnel:20200818.0-amd64 --push amd64
-	docker buildx build --platform=linux/arm64 -t docker.io/cloudtogo4edge/udp2raw-tunnel:20200818.0-arm64v8 --push arm64v8
-	docker buildx build --platform=linux/arm/v7 -t docker.io/cloudtogo4edge/udp2raw-tunnel:20200818.0-arm32v7 --push arm32v7
+	docker buildx build --platform=linux/amd64,linux/arm64,linux/arm/v7 -f alpine-3.12.dockerfile -t docker.io/cloudtogo4edge/udp2raw-tunnel:v20200818.0-alpine3.12 --push .
+	docker buildx build --platform=linux/amd64,linux/arm64,linux/arm/v7 -f alpine-3.13.dockerfile -t docker.io/cloudtogo4edge/udp2raw-tunnel:v20200818.0-alpine3.13 --push .
+	docker buildx build --platform=linux/amd64,linux/arm64,linux/arm/v7 -f alpine-3.13.dockerfile -t docker.io/cloudtogo4edge/udp2raw-tunnel:v20200818.0 --push .
